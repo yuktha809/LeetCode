@@ -5,13 +5,13 @@ public:
             return false;
         }
         int rev=0;
-        int dup=x;
+        int num = x;
         while(x > 0){
             int rem = x%10;
             rev = (rev*10)+rem;
             x=x/10;
         }
-        if(dup == rev){
+        if(num == rev){
             return true;
         }
         else{
