@@ -4,7 +4,7 @@ public:
         
         int revN=0;
         while(x>0){
-            int rem = x % 10;
+            int digit = x % 10;
             x = x/10;
            if (revN > INT_MAX / 10 || (revN == INT_MAX / 10 && digit > 7))
                 return 0;
