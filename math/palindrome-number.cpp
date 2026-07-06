@@ -4,10 +4,13 @@ public:
         if(x<0){
             return false;
         }
-        int rev=0;
+        int rev = 0;
         int num = x;
         while(x > 0){
-            int rem = x%10;
+            int rem = x % 10;
+            if(rev > INT_MAX/10 || (rev = INT_MAX/10 && rem > 7)){
+                return false;
+            }
             rev = (rev*10)+rem;
             x=x/10;
         }
