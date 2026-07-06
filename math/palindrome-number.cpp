@@ -1,6 +1,9 @@
 class Solution {
 public:
     bool isPalindrome(int x) {
+        if(x<0){
+            return false;
+        }
         int rev=0;
         int dup=x;
         while(x > 0){
