@@ -12,7 +12,7 @@ public:
             
             if (revN < INT_MIN / 10 || (revN == INT_MIN / 10 && digit < -8))
                 return 0;
-            revN = (revN*10)+rem;
+            revN = (revN*10)+digit;
             
         }
         return revN;
