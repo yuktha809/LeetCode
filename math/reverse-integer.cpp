@@ -7,6 +7,6 @@ public:
             revN = (revN*10)+rem;
             x = x/10;
         }
-        return 0;
+        return revN;
     }
 };
