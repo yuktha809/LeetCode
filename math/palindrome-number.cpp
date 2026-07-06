@@ -8,7 +8,7 @@ public:
             rev = (rev*10)+rem;
             x=x/10;
         }
-        if(rev == dup){
+        if(dup == rev){
             return true;
         }
         else{
