@@ -6,11 +6,11 @@ public:
         int posI=0,negI=1;
         for(int i=0;i<n;i++){
             if(nums[i]<0){
-                nums[negI]=nums[i];
+                ans[negI]=nums[i];
                 negI += 2;
             }
             else{
-                nums[posI]=nums[i];
+                ans[posI]=nums[i];
                 posI += 2;
             }
         }
