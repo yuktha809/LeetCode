@@ -4,7 +4,11 @@ public:
 
         unordered_set<int> st(nums.begin(), nums.end());
 
-        int longest = 0;
+        int longest = 1;
+        if(nums.size()==0) return 0;
+        for(int i =o;i<nums.size();i++){
+            st.insert(nums[i]);
+        }
 
         for (int num : nums) {
 
