@@ -8,7 +8,7 @@ public:
         for(int i = 0;i<n;i++){
             st.insert(nums[i]);
         }
-        for( int num : nums){
+        for( auto num : nums){
             if(st.find(num - 1 )== st.end()){
                 int count =1;
                 int x = num;
