@@ -13,7 +13,7 @@ public:
             }
             top++;
             for(int i = top;i<bottom;i++){
-                result.push_back(matrix[i][rigth]);
+                result.push_back(matrix[i][right]);
             }
             right--;
             if(top<=bottom){
