@@ -5,11 +5,11 @@ public:
         int n = nums.size();
         int el1=INT_MIN,el2=INT_MIN;
         for(int i =0;i<n;i++){
-            if(cs1==0 && nums[i]!=cs2){
+            if(cs1==0 && cs2!=nums[i]){
                 cs1++;
                 el1=nums[i];
             }
-            else if(cs2==0 && nums[i]!=cs1){
+            else if(cs2==0 && cs2!=nums[i]){
                 cs2++;
                 el2=nums[i];
             }
