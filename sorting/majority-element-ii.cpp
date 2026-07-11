@@ -34,7 +34,7 @@ public:
                 cs2++;
             }
         }
-        int freq = (n/3)+1;
+        int freq = (n/3);
         vector<int> ans;
         if(cs1> freq){
             ans.push_back(el1);
