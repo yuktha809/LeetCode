@@ -25,7 +25,7 @@ public:
             }
             
         }
-        int cs1 = 0,cs2 =0;
+         cs1 = 0,cs2 =0;
         for(int i =0;i<n;i++){
             if(nums[i]==el1){
                 cs1++;
