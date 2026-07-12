@@ -6,7 +6,7 @@ public:
         vector<vector<int>> ans;
         for(int i=0;i<n;i++){
             int st=intervals[i][0];
-            int end=intevals[i][1];
+            int end=intervals[i][1];
             int j = i+!;
             while(j<n && intervals[j][0]<=end){
                 end = max(end, intervals[j][1]);
