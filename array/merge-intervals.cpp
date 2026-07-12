@@ -7,7 +7,7 @@ public:
         for(int i=0;i<n;i++){
             int st=intervals[i][0];
             int end=intervals[i][1];
-            int j = i+!;
+            int j = i+1;
             while(j<n && intervals[j][0]<=end){
                 end = max(end, intervals[j][1]);
                 j++;
