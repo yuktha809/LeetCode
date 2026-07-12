@@ -12,7 +12,7 @@ public:
                 end = max(end, intervals[j][1]);
                 j++;
             }
-            ans.push_back({start,end});
+            ans.push_back({st,end});
             i=j;
         }
         return ans;
