@@ -8,7 +8,7 @@ public:
             continue;
             for(int j = i+1;j<n-2;j++){
                 if(j>i+1 && nums[j]==nums[j-1])
-                continuel
+                continue;
                 int left = j+1;
                 int right = nums.size()-1;
                 while(left<right){
