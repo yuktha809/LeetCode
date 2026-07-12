@@ -8,7 +8,7 @@ public:
                 ans.push_back(intervals[i]);
             }
             else{
-                ans.back()[1]= max(ans.back()[1],arr[i][1]);
+                ans.back()[1]= max(ans.back()[1],intervals[i][1]);
             }
      
         }
