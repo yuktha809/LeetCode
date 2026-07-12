@@ -4,7 +4,7 @@ public:
         int n = intervals.size();
         sort(intervals.begin(),intervals.end());
         vector<vector<int>> ans;
-        for(int i=0;i<n;i++){
+        for(int i=0;i<n;){
             int st=intervals[i][0];
             int end=intervals[i][1];
             int j = i+1;
