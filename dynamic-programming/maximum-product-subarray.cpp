@@ -11,7 +11,7 @@ public:
                 suff=1;
             }
             pre *=nums[i];
-            suff *=nums[n-i-1];
+            suff *=nums[nums.size()-i-1];
 
              n=max(pre,suff);
              ans = max(ans,n);
