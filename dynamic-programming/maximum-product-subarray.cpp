@@ -15,7 +15,7 @@ public:
             suff *=nums[n-i-1];
 
              int curMax=max(pre,suff);
-             ans = max(ans,n);
+             ans = max(ans,curMax);
         }
        return ans;
     }
