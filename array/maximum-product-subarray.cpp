@@ -4,7 +4,7 @@ public:
         int pre=1,suff=1;
         int n = nums.size();
         int ans=INT_MIN;
-        for(int i = 0;i<n-1;i++){
+        for(int i = 0;i<n;i++){
             if(pre==0) {
                 pre = 1;
             }
