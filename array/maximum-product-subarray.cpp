@@ -13,7 +13,7 @@ public:
             pre *=nums[i];
             suff *=nums[nums.size()-i-1];
 
-             n=max(pre,suff);
+             int n=max(pre,suff);
              ans = max(ans,n);
         }
        return ans;
