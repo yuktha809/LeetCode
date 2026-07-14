@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int binraySearch(vector<int>& nums,int low,int high,int target){
+    int binarySearch(vector<int>& nums,int low,int high,int target){
         if (low > high) return -1;
         int mid=(low+high)/2;
         if(nums[mid]==target) return mid;
