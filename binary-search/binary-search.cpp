@@ -7,7 +7,7 @@ public:
         else return binraySearch(nums,low,mid-1,target);
     }
     int search(vector<int>& nums, int target) {
-        
+        return binarySearch(nums,0,nums.size()-1,target);
         
     }
 };
