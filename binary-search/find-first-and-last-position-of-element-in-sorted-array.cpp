@@ -41,6 +41,6 @@ public:
             }
             return ans;
         }
-        return {firstOccurance(nums,target),lasOccurance(nums,target)}
+        return {firstOccurance(nums,target),lastOccurance(nums,target)};
     }
 };
