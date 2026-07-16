@@ -1,6 +1,6 @@
 class Solution {
 public:
-    long long gcdPairSum(vector<int>& nums) {
+    long long gcdSum(vector<int>& nums) {
         int n = nums.size();
 
         vector<int> prefixGcd;
