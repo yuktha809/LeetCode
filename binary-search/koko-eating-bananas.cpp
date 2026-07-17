@@ -9,7 +9,7 @@ public:
     }
     int minEatingSpeed(vector<int>& piles, int h) {
         int maxpile = *max_element(piles.begin(),piles.end());
-        int low =0,high = maxpile;
+        int low =1,high = maxpile;
         int ans = INT_MAX;
        
         while(low<=high){
