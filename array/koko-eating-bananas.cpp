@@ -8,7 +8,7 @@ public:
         return totalH;
     }
     int minEatingSpeed(vector<int>& piles, int h) {
-        int maxpile = *max_element(pile.begin(),piles.end());
+        int maxpile = *max_element(piles.begin(),piles.end());
         int low =0,high = maxpile;
         int ans = INT_MAX;
        
