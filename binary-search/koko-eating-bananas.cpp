@@ -15,12 +15,13 @@ public:
         while(low<=high){
             int mid = (low+high)/2;
              int time=countTotalHour(piles,mid);
-            if(time>=h){
+            if(time<=h){
                 ans = mid;
-                low = mid+1;
+                 high = mid-1;
             }
             else{
-                high = mid-1;
+               
+                low = mid+1;
             }
         }
         return ans;
