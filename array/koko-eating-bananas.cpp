@@ -3,7 +3,7 @@ public:
     int countTotalHour(vector<int>& piles,int speed){
         int totalH=0;
         for(int i: piles){
-            totalH += ceil(i/speed);
+            totalH += ceil((double)i/speed);
         }
         return totalH;
     }
