@@ -12,7 +12,7 @@ public:
         int low =0,high = maxpile;
         int ans = INT_MAX;
        
-        while(low<high){
+        while(low<=high){
             int mid = (low+high)/2;
              int time=countTotalHour(piles,mid);
             if(time>=h){
