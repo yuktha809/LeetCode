@@ -3,7 +3,7 @@ public:
     int sums(vector<int>& nums,int n){
         
         int thre = 0;
-        for(i:nums){
+        for(int i:nums){
             thre += ceil(i/n){
                 
             }
