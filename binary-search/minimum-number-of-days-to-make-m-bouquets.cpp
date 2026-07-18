@@ -18,7 +18,7 @@ public:
         return bouq >=m;
     }
     int minDays(vector<int>& bloomDay, int m, int k) {
-        if((long long)m*k>n)
+        if((long long)m*k > bloomDay.size())
             return -1;
         int low = *min_element(bloomDay.begin(),bloomDay.end());
         int high=*max_element(bloomDay.begin(),bloomDay.end());
