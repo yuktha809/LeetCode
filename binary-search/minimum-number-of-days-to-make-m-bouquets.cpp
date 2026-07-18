@@ -10,10 +10,11 @@ public:
                     bouq++;
                     count=0;
                 }
-                else{
+                
+            }
+            else{
                     count=0;
                 }
-            }
         }
         return bouq >=m;
     }
