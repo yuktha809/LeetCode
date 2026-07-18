@@ -14,7 +14,7 @@ public:
        
         while(low<=high){
             int mid = (low+high)/2;
-             int time=countTotalHour(piles,mid);
+             long long time=countTotalHour(piles,mid);
             if(time<=h){
                 ans = mid;
                  high = mid-1;
