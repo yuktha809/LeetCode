@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int countTotalHour(vector<int>& piles,int speed){
+    long long countTotalHour(vector<int>& piles,int speed){
         long long totalH=0;
         for(int i: piles){
             totalH += ceil((double)i/speed);
