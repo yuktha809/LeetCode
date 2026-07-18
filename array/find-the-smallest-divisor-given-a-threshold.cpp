@@ -4,7 +4,7 @@ public:
         
         int thre = 0;
         for(int i:nums){
-            thre += ceil(i/n);
+            thre += ceil((double)i/n);
         }
         return thre;
     }
