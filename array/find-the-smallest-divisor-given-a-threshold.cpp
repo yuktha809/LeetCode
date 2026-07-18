@@ -13,7 +13,7 @@ public:
         int low = 1,high = *max_element(nums.begin(),nums.end());
         while(low<=high){
             int mid = (low+high)/2;
-            if(sums(nums,mid)){
+            if(sums(nums,mid)<=threshold){
                 high = mid-1;
             }
             else{
