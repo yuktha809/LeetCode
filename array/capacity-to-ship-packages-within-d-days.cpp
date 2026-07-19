@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int days(vector<int>& weights,int capacity){
+    int Days(vector<int>& weights,int capacity){
         int day =1,currentLoad=0;
         for(int i : weights){
             if(currentLoad+i>capacity){
@@ -18,7 +18,7 @@ public:
         int high = accumulate(weights.begin(),weights.end(),0);
         while(low<=high){
             int mid=(low+high)/2;
-            int ans = days(weights,mid);
+            int ans = Days(weights,mid);
             if(ans<=d){
                 high = mid;
             }
