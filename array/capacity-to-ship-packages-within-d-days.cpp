@@ -20,7 +20,7 @@ public:
             int mid=(low+high)/2;
             int ans = Days(weights,mid);
             if(ans<=days){
-                high = mid;
+                high = mid-1;
             }
             else{
                 low=mid+1;
