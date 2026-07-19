@@ -19,7 +19,7 @@ public:
         while(low<=high){
             int mid=(low+high)/2;
             int ans = Days(weights,mid);
-            if(ans<=d){
+            if(ans<=days){
                 high = mid;
             }
             else{
