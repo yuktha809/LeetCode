@@ -1,6 +1,6 @@
 class Solution {
 public:
-    int maxActiveSections(string s) {
+    int maxActiveSectionsAfterTrade(string s) {
         int ones = 0;
         for (char c : s)
             if (c == '1') ones++;
@@ -26,5 +26,6 @@ public:
         }
 
         return ones + gain;
+        
     }
 };
