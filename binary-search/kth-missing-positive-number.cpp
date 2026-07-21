@@ -5,7 +5,7 @@ public:
         while(low<=high){
             int mid = (low+high)/2;
             int missingNums = arr[mid]-(mid+1);
-            if(missing < k){
+            if(missingNums < k){
                 low = mid+1;
             }
             else{
