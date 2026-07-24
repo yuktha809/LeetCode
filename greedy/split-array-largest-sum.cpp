@@ -19,10 +19,17 @@ public:
        
         int low = *max_element(nums.begin(),nums.end());
         int high = accumulate(nums.begin(),nums.end(),0);
-        for(int i =low;i<=high;i++){
-            if(numPartitions(nums,i)==k){
-                return i;
+        while(low<=high){
+            int mid = (low+high)/2;
+            int ans = numPartitions(nums,mid);
+            if(ans > k){
+                low = mid+1;
             }
+
+            else{
+                high = mid-1;
+            }   l
+            
         }
         return low;
     }
