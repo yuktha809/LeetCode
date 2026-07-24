@@ -18,7 +18,7 @@ public:
     int splitArray(vector<int>& nums, int k) {
        
         int low = *max_element(nums.begin(),nums.end());
-        int high = accumulate(nums.begin(),nums.end());
+        int high = accumulate(nums.begin(),nums.end(),0);
         for(int i =low;i<=high;i++){
             if(numPartitions(nums,i)==k){
                 return i;
