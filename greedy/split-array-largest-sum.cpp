@@ -28,7 +28,7 @@ public:
 
             else{
                 high = mid-1;
-            }   l
+            }   
             
         }
         return low;
