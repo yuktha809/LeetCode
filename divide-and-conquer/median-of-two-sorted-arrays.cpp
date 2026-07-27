@@ -12,7 +12,7 @@ public:
             int mid1=(low+high)/2;
             int mid2=(sepHalf-mid1);
             int l1=INT_MIN,l2=INT_MIN;
-            int r1=INT+MAX,r2=INT_MAX;
+            int r1=INT_MAX,r2=INT_MAX;
             if(mid1<m) r1=nums1[mid1];
             if(mid2<n) r2 = nums2[mid2];
             if(mid-1>=0) l1 = nums1[mid1-1];
