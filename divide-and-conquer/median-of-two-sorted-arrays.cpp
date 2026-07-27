@@ -21,10 +21,10 @@ public:
                 return (double)(max(l1,l2)+min(r1,r2))/2;
             }
             else if(l1>r2){
-                high = mid1+1;
+                high = mid1-1;
             }
             else{
-                low = mid1-1;
+                low = mid1+1;
             }
         }
         return 0;
