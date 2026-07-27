@@ -6,7 +6,7 @@ public:
         int low =0,high = m;
         int leftHalf = (m+n+1)/2;
         while(low<=high){
-            int mid1= (low+high)2;
+            int mid1= (low+high)/2;
             int mid2=leftHalf - mid1;
             int l1=INT_MIN,l2=INT_MIN;
             int r1=INT_MAX,r2=INT_MAX;
