@@ -13,5 +13,6 @@ public:
             else if(matrix[row][col]>target) high = mid-1;
             else low = mid+1;
         }
-    }
+    return false;
+    
 };
