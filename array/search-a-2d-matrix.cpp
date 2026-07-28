@@ -9,8 +9,9 @@ public:
             int row = mid/m;
             int col = mid%m;
             if(matrix[row][col]==target) return true;
-        }
+        
             else if(matrix[row][col]>target) high = mid-1;
             else low = mid+1;
+        }
     }
 };
