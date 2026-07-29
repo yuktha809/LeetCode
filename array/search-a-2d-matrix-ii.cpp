@@ -7,7 +7,7 @@ public:
         
         while(row<=n && col>=0){
             if(matrix[row][col]==target){
-                return {row,col};
+                return true;
             }
             else if(matrix[row][col]<target){
                 row++;
