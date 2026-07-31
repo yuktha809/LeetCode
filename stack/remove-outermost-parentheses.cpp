@@ -18,10 +18,8 @@ public:
                 }
 
             }
-
-            }
-        
+        }
     return ans;
-        
-    }
+
+        }
 };
