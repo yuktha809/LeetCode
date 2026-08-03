@@ -6,7 +6,7 @@ public:
         int i =0;
         string word = " ";
         while(i<n){
-            while(i<n && s[i]==" " ){
+            while(i<n && s[i]== " " ){
                 i++;
 
             }
