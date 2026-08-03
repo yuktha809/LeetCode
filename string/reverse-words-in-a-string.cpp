@@ -12,7 +12,7 @@ public:
             string word = "";
             }
             while(i<n && s[i]!= ' '){
-                word += s[i];
+                words += s[i];
                 i++;
             }
             
