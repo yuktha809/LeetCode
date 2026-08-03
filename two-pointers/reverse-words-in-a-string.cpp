@@ -15,12 +15,13 @@ public:
             while(i<s.size() && s[i]== ' ' ){
             i++;
         }
+        if(i==s.size()) break;
+        if(!ans.empty()) ans += " ";
         while(i<s.size() && s[i]!=' '){
             ans += s[i];
             i++;
         }
-        if(i==s.size()) break;
-        if(!ans.empty()) ans += " ";
+        
         
         }
         
