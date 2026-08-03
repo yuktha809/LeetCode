@@ -4,11 +4,12 @@ public:
         vector<string>words;
         int n = s.size();
         int i = 0;
-        string word = "";
+        
         while(i<n){
             while(i<n && s[i]== ' ' ){
                 i++;
 
+            string word = "";
             }
             while(i<n && s[i]!= ' '){
                 word += s[i];
