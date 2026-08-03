@@ -1,17 +1,18 @@
 class Solution {
 public:
     string reverseWords(string s) {
-        vector<int>words;
+        vector<string>words;
         int n = s.size();
         int i = 0;
-        string word = " ";
+        string word = "";
         while(i<n){
-            while(i<n && s[i]== " " ){
+            while(i<n && s[i]== ' ' ){
                 i++;
 
             }
-            while(i<n && s[i]!= " "){
+            while(i<n && s[i]!= ' '){
                 word += s[i];
+                i++;
             }
             
             if(!word.empty()){
