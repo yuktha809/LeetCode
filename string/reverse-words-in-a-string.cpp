@@ -11,7 +11,7 @@ public:
         }
         string ans ="";
         int i=0;
-        while(i<n){
+        while(i<s.size()){
             while(i<s.size() && s[i]== ' ' ){
             i++;
         }
@@ -19,7 +19,7 @@ public:
             ans += s[i];
             i++;
         }
-        if(i==n) break;
+        if(i==s.size()) break;
         if(!ans.empty()) ans += " ";
         
         }
