@@ -9,10 +9,11 @@ public:
             while(i<n && s[i]== ' ' ){
                 i++;
 
-            string word = "";
+           
             }
+             string word = "";
             while(i<n && s[i]!= ' '){
-                words += s[i];
+                word += s[i];
                 i++;
             }
             
