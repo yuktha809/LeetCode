@@ -13,7 +13,7 @@ public:
             }
             ans += frst[i];
         }
-        return ans[i];
+        return ans;
         
     }
 };
