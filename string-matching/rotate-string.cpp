@@ -5,7 +5,7 @@ public:
         if(s.size()!=goal.size()){
             return false;
         }
-        return temp.find(goal)!= string::npso;
+        return temp.find(goal)!= string::npos;
         
     }
 };
