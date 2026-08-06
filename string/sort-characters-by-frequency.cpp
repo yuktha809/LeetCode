@@ -13,6 +13,7 @@ public:
         while(!pq.empty()){
             int count = pq.top().first;
             char ch = pq.top().second;
+            pq.pop();
             ans.append(count,ch);
         }
         return ans;
