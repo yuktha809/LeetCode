@@ -9,6 +9,7 @@ public:
         for(auto i:freq){
             pq.push({i.second,i.first});
         }
+        string ans="";
         while(!pq.empty()){
             int count = pq.top().first;
             char ch = pq.top().second;
