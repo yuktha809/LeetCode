@@ -15,6 +15,7 @@ public:
        while(i<n && isdigit(s[i])){
         if(ans*sign >INT_MAX) return INT_MAX;
         if(ans*sign <INT_MIN) return INT_MIN;
+        i++;
        }
        return ans*sign;
     }
