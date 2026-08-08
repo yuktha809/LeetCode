@@ -13,6 +13,7 @@ public:
         i++;
        }
        while(i<n && isdigit(s[i])){
+        ans = ans*10+(s[i]-'0');
         if(ans*sign >INT_MAX) return INT_MAX;
         if(ans*sign <INT_MIN) return INT_MIN;
         i++;
