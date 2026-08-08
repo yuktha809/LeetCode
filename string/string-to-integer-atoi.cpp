@@ -7,6 +7,7 @@ public:
          int sign = 1;
         while(i<n && s[i]==' '){
             i++;
+        }
             if(i<n && (s[i]=='+' || s[i]=='-')){
                 if(s[i]=='-'){
                     sign =-1;
@@ -19,7 +20,7 @@ public:
             if(ans*sign<INT_MIN) return INT_MIN;
         i++;
         }
-        }
+        
         return ans*sign;
     }
 };
