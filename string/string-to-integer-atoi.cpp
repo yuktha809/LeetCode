@@ -11,9 +11,8 @@ public:
             if(i<n && (s[i]=='+' || s[i]=='-')){
                 if(s[i]=='-'){
                     sign =-1;
-                    i++;
-                
               }
+              i++;
             }
         while(i<n && isdigit(s[i])){
             ans = ans*10+(s[i]-'0');
