@@ -7,7 +7,7 @@ public:
             i++;
 
             int sign = 1;
-            if(i<n && (s[i]=='+' || s[i]=='-'){
+            if(i<n && (s[i]=='+' || s[i]=='-')){
                 if(s[i]=='-'){
                     sign =-1;
                 
