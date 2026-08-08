@@ -4,10 +4,9 @@ public:
         int i =0;
         int n = s.size();
          long long ans = 0;
+         int sign = 1;
         while(i<n && s[i]==' '){
             i++;
-
-            int sign = 1;
             if(i<n && (s[i]=='+' || s[i]=='-')){
                 if(s[i]=='-'){
                     sign =-1;
