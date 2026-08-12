@@ -20,8 +20,9 @@ public:
                 slow=slow->next;
                 fast=fast->next;
             }
+            return slow;
         }
-        return slow;
+        
     }
     return NULL;
     }
