@@ -13,33 +13,33 @@ public:
     bool isPalindrome(ListNode* head) {
           while(head==NULL && head->next==NULL){
             return true;
-        }
-        ListNode* slow=head;
-        ListNode* fast=head;
-        ListNode* temp = head;
-      
+          }
+          ListNode* slow=head;
+          ListNode* fast=head;
         while(fast!=NULL && fast->next!=NULL){
             slow=slow->next;
             fast=fast->next->next;
+
         }
         ListNode* prev=NULL;
-        ListNode* curr=slow;
+        ListNode* curr=head;
         while(curr!=NULL){
             ListNode* nextnode=curr->next;
             curr->next=prev;
             prev=curr;
             curr=nextnode;
         }
-        ListNode* first=head;
+        Listnode* first=head;
         ListNode* second = prev;
         while(second!=NULL){
-            if(first->val!=second->val){
+            if(first->val!second->val){
                 return false;
             }
             first=first->next;
-            second = second->next;
+            second=second->next;
         }
         return true;
+
         
     }
 };
