@@ -32,7 +32,7 @@ public:
         ListNode* first=head;
         ListNode* second = prev;
         while(second!=NULL){
-            if(first->val!=second->val){
+            if(first->val != second->val){
                 return false;
             }
             first=first->next;
