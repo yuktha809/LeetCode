@@ -29,7 +29,7 @@ public:
             prev=curr;
             curr=nextnode;
         }
-        Listnode* first=head;
+        ListNode* first=head;
         ListNode* second = prev;
         while(second!=NULL){
             if(first->val!second->val){
