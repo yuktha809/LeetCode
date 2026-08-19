@@ -15,7 +15,7 @@ public:
             return head;
         }
         ListNode* slow=head;
-        ListNode* fats=head;
+        ListNode* fast=head;
         while(fast!=NULL && fast->next!=NULL){
             slow=slow->next;
             fast=fast->next->next;
@@ -23,8 +23,9 @@ public:
         ListNode* right=slow->next;
         right->next=NULL;
         ListNode* left=sortList(head);
-        right=sortList(right;)
+        right=sortList(right);
         return merge(left,right);
+    }
 
         ListNode* merge(ListNode* left,ListNode* right){
             ListNode* dummy=ListNode(0);
