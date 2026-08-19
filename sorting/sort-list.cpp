@@ -21,7 +21,7 @@ public:
             fast=fast->next->next;
         }
         ListNode* right=slow->next;
-        right->next=NULL;
+        slow->next=NULL;
         ListNode* left=sortList(head);
         right=sortList(right);
         return merge(left,right);
