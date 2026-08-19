@@ -23,6 +23,7 @@ public:
                 list2=list2->next;
 
             }
+            temp=temp->next;
         }
         if(list1!=NULL){
             temp->next=list1;
