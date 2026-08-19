@@ -28,7 +28,7 @@ public:
     }
 
         ListNode* merge(ListNode* left,ListNode* right){
-            ListNode* dummy=ListNode(0);
+            ListNode* dummy=new ListNode(0);
             ListNode* temp=dummy;
             while(left!=NULL && right!=NULL){
                 if(left->val<=right->val){
