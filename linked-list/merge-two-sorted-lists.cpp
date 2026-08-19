@@ -28,7 +28,7 @@ public:
             temp->next=list1;
         }
         else{
-            temp->next=right;
+            temp->next=list2;
         }
         return dummy->next;
     }
