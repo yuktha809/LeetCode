@@ -26,6 +26,7 @@ public:
             }
             temp->next=new ListNode(sum%10);
             carry=sum/10;
+            temp=temp->next;
         } 
         return dummy->next;
     }
