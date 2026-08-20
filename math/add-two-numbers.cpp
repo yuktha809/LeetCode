@@ -22,7 +22,7 @@ public:
             }
             if(l2!=NULL){
                 sum+=l2->val;
-                l2=l2->val;
+                l2=l2->next;
             }
             temp->next=new ListNode(sum%10);
             carry=sum/10;
