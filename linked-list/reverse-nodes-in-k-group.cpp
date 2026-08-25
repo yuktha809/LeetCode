@@ -15,6 +15,9 @@ public:
         ListNode* prev =NULL;
         ListNode* next=NULL;
         int count=0;
+        if (count < k) {
+            return head;
+        }
         while(curr!=0 && count<k){
             next=curr->next;
             curr->next=prev;
