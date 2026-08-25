@@ -16,7 +16,7 @@ public:
         }
         int length=1;
         ListNode* tail=head;
-        while(tail!=NULL){
+        while(tail->next != NULL){
             tail=tail->next;
             length++;
         }
