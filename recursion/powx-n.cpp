@@ -15,7 +15,7 @@ public:
             return half*half;
         }
         else{
-            retrun x*half*half;
+            return x*half*half;
         }
         
     }
