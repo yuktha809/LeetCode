@@ -1,7 +1,7 @@
 class Solution {
 public:
     long long power(long long x,long long n,long long mod){
-        if(n<0){
+        if(n==0){
             return 1;
         }
         long long half=power(x,n/2,mod);
