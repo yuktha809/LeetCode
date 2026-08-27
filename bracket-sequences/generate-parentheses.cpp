@@ -9,7 +9,7 @@ public:
             solve(open+1,close,n,s+'(',ans);
         }
         if(close<open){
-            solve(open,close+1,s+')',ans);
+            solve(open,close+1,n,s+')',ans);
         }
     }
     vector<string> generateParenthesis(int n) {
