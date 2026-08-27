@@ -1,7 +1,7 @@
 class Solution {
 public:
     void solve(int open,int close,int n,string s,vector<string>& ans){
-        if(s.lenght()==2*n){
+        if(s.length()==2*n){
             ans.push_back(s);
             return;
         }
