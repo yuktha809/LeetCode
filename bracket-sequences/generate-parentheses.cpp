@@ -13,7 +13,7 @@ public:
         }
     }
     vector<string> generateParenthesis(int n) {
-        vector<string>& ans;
+        vector<string> ans;
         solve(0,0,n,"",ans);
         return ans;
     }
