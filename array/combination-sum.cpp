@@ -10,7 +10,7 @@ public:
             return;
         }
         if(arr[index]<=target){
-            da.push_back(arr[index]);
+            dz.push_back(arr[index]);
             combos(index,target-arr[index],arr,ds,ans);
             ds.pop_back();
         }
