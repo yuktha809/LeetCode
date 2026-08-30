@@ -13,7 +13,7 @@ void combos(int index,int target,vector<int>& arr,vector<int>& ds,vector<vector<
                 break;
             }
             ds.push_back(arr[i]);
-            combos(index+1,target-arr[i],arr,ds,ans);
+            combos(i+1,target-arr[i],arr,ds,ans);
             ds.pop_back();
         }
 }
