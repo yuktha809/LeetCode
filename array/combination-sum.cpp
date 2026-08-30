@@ -1,7 +1,7 @@
 class Solution {
 public:
     
-    void combos(int index,int target,vector<int>& arr,vector<int>& ds,veector<vector<int>>& ans){
+    void combos(int index,int target,vector<int>& arr,vector<int>& ds,vector<vector<int>>& ans){
         if(target==0){
             ans.push_back(ds);
             return;
