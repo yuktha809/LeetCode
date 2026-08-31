@@ -6,10 +6,11 @@ public:
             if(i>ind && nums[i]==nums[i-1])
                 continue;
             curr.push_back(nums[i]);
-        }
-        subset(ind+1,curr,nums,ans);
+        
+        subset(i+1,curr,nums,ans);
         curr.pop_back();
     }
+}
     vector<vector<int>> subsetsWithDup(vector<int>& nums) {
         sort(nums.begin(),nums.end());
         vector<int> curr;
