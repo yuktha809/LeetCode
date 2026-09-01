@@ -11,7 +11,7 @@ private:
         for(int i=last;i<=9;i++){
             if(i<=sum){
                 nums.push_back(i);
-                combos(sum-nums[i],i+1,k,nums,ans);
+                combos(sum-i,i+1,k,nums,ans);
                 nums.pop_back();
             }
             else{
