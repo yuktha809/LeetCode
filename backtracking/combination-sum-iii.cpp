@@ -1,5 +1,5 @@
 class Solution {
-private:
+public:
     void combos(int sum,int last,int k,vector<int>& nums,vector<vector<int>>& ans){
         if(sum==0 && nums.size()==k){
             ans.push_back(nums);
@@ -19,7 +19,6 @@ private:
             }
         }
     }
-public:
     vector<vector<int>> combinationSum3(int k, int n) {
         vector<vector<int>> ans;
         vector<int> nums;
