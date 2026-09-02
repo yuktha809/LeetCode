@@ -8,13 +8,13 @@ public:
         long long b = divisor;
         a = abs(a);
         b = abs(b);
-        long long q;
+        long long q=0;
         while(a>=b){
             long long temp=b;
             long long count =1;
             while((temp<<1)<=a){
-                temp<<1;
-                count<<1;
+                temp<<=1;
+                count<<=1;
            }
             a =a-temp;
             q=q+count;
