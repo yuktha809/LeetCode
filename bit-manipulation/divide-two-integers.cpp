@@ -19,7 +19,7 @@ public:
             a =a-temp;
             q=q+count;
         }
-        if(negative){
+        if(neg){
             q = -q;
         }
         if (q > INT_MAX)
