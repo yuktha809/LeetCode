@@ -11,7 +11,7 @@ public:
         long long q;
         while(a>=b){
             long long temp=b;
-            long lonng count =1;
+            long long count =1;
             while((temp<<1)<=a){
                 temp<<1;
                 count<<1;
