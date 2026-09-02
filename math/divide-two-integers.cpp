@@ -1,9 +1,6 @@
 class Solution {
 public:
     int divide(int dividend, int divisor) {
-        if(dividend=INT_MIN && divisor<=0){
-            return INT_MAX;
-        }
         if(dividend == divisor) return 1;
         if(dividend>0 && (divisor==1)) return dividend;
         bool neg=(dividend<0)^(divisor<0);
@@ -25,5 +22,12 @@ public:
         if(negative){
             q = -q;
         }
+        if (q > INT_MAX)
+            return INT_MAX;
+
+        if (q < INT_MIN)
+            return INT_MIN;
+
+        return (int)q;
     }
 };
