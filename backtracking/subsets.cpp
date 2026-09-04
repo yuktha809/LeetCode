@@ -10,9 +10,10 @@ public:
                 if(mask & (1<<i)){
                     sub.push_back(nums[i]);
                 }
-                ans.push_back(sub);
-
+                
             }
+            ans.push_back(sub);
+
         }
         return ans;
     }
