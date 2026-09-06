@@ -4,7 +4,7 @@ public:
         if(n<=2) return 0;
         vector<bool> nums(n,true);
         
-        nums[0]=nums[1]false;
+        nums[0]=nums[1]=false;
       
         for(int i=2;i*i<n;i++){
             if(nums[i]){
