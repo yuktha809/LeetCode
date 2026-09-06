@@ -6,9 +6,9 @@ public:
         
         nums[0]=nums[1]=false;
       
-        for(int i=2;i*i<n;i++){
+        for(long long i=2;i*i<n;i++){
             if(nums[i]){
-                for(int j=i*i;j<n;j+=i){
+                for(long long j=i*i;j<n;j+=i){
                     nums[j]=false;
                 }
             }
