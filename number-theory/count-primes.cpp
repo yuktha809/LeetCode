@@ -54,22 +54,3 @@ public:
     }
 };
 
-int main() {
-    // Example usage
-    
-    
-    // Create an instance of the Solution class
-    Solution solution;
-    
-    // Call the function and store the result
-    auto result = solution.primesInRange(queries);
-    
-    // Output the result
-    cout << "The number of primes in the given ranges are: ";
-    for (int count : result) {
-        cout << count << " ";
-    }
-    cout << endl;
-
-    return 0;
-}
