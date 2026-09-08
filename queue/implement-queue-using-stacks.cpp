@@ -1,5 +1,5 @@
 class MyQueue {
-    stack<int> ip,op;
+    stack<int> s1,s2;
 public:
     MyQueue() {
         
