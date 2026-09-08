@@ -16,6 +16,10 @@ public:
                 s1.pop();
             }
         }
+        int x = s2.top();
+        s2.pop();
+        return x;
+
            
     }
     
