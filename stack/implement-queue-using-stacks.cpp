@@ -6,7 +6,7 @@ public:
     }
     
     void push(int x) {
-        ip.push(x);
+        s1.push(x);
     }
     
     int pop() {
@@ -25,8 +25,8 @@ public:
                 s2.push(s1.top());
                 s1.pop();
             }
-        return s2.top();
         }
+         return s2.top();
     }
     
     bool empty() {
