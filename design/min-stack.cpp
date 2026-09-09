@@ -9,7 +9,7 @@ public:
     
     void push(int value) {
         st.push(value);
-        if(minSt.empty()||minSt.top>value){
+        if(minSt.empty()||minSt.top()>value){
             minSt.push(value);
         }
 
