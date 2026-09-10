@@ -16,7 +16,7 @@ public:
             st.push(nums2[i]);
         }
         vector<int> ans;
-        for(int i =0;i<nums1.size();i++){
+        for(int i : nums1){
             ans.push_back(mp[i]);
         }
         return ans;
