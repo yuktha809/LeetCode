@@ -17,7 +17,7 @@ public:
         }
         vector<int> ans;
         for(int i =0;i<nums2.size();i++){
-            ans.push(nums2[i]);
+            ans.push_back(nums2[i]);
         }
         return ans;
     }
