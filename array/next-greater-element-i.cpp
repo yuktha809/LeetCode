@@ -8,7 +8,7 @@ public:
                 st.pop();
             }
             if(st.empty()){
-                mp[nums2[i]] -1;
+                mp[nums2[i]]=-1;
             }
             else{
                 mp[nums2[i]]=st.top();
