@@ -25,7 +25,7 @@ public:
                     right--;
                 }
             }
-        }
+        
         return ans;
     }
 };
